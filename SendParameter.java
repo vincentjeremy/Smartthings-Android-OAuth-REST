@@ -46,7 +46,7 @@ public class SendParameter {
             httpClientUri = new DefaultHttpClient();
 
             //Request
-            String message = (address + "/" + "changeheat" + "?access_token=" + token );
+            String message = (address + "/" + action + "?access_token=" + token );
             Log.d("Url envoyée ", message);
             request = new HttpPost(message);
 
