@@ -34,9 +34,12 @@ How to use
   This project pocède two examples of communication with a Smartapp:
 
     - Recover data
+    
         GetDevices jParser = new GetDevices();
         JSONObject jsonDevices = jParser.getDevices(uriRequest,token,path);
+        
     - Send data (and receive the answer that everything is well spent)
+    
         SendParameter jParser = new SendParameter();
         JSONObject jsonDevices = jParser.sendParameter(uriRequest,token,path);  
 
